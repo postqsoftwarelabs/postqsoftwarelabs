@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>PostQ Software Labs</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -25,7 +29,7 @@
   <!-- Header -->
   <header class="flex justify-between items-center px-6 py-4 border-b border-gray-800">
     <div class="flex items-center space-x-4">
-      <img src="logo.png" alt="PostQ Software Labs Logo" class="h-12 w-auto rounded-md" />
+      <img src="logo.png" alt="PostQ Logo" class="h-12 w-auto rounded-md" />
       <h1 class="text-lg font-semibold">PostQ Software Labs</h1>
     </div>
   </header>
@@ -33,7 +37,6 @@
   <!-- Hero Section -->
   <section class="text-center px-6 py-20">
     
-    <!-- Logo Center Display -->
     <div class="flex justify-center mb-10">
       <img src="logo.png" alt="PostQ Logo" class="h-28 md:h-36 w-auto rounded-lg shadow-lg" />
     </div>
@@ -43,9 +46,9 @@
     </h2>
 
     <p class="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
-      Our website is currently under construction.  
-      We are building solutions to help organizations transition to
-      post-quantum cryptography with clarity and intent.
+      Our website is currently under construction.<br/>
+      We are building solutions to help organizations transition to post-quantum cryptography through a 
+      <span class="text-white">structured, repeatable approach.</span>
     </p>
   </section>
 
@@ -53,9 +56,9 @@
   <section class="px-6 py-16 max-w-4xl mx-auto">
     <h3 class="text-2xl font-semibold mb-4 text-white">Why This Matters</h3>
     <p class="text-gray-400 leading-relaxed">
-      Advances in quantum computing will redefine digital security.
-      Encryption that protects systems today may not remain secure tomorrow.
-      Preparing for this shift is a long-term transformation—not just an upgrade.
+      Advances in quantum computing will reshape digital security.
+      Cryptographic systems trusted today may not remain secure in the future.
+      Preparing early enables a controlled and low-risk transition.
     </p>
   </section>
 
@@ -65,25 +68,42 @@
       <h3 class="text-2xl font-semibold mb-8 text-white text-center">Our Focus</h3>
 
       <div class="grid md:grid-cols-2 gap-6">
+
         <div class="p-6 border border-gray-800 rounded-xl">
-          <h4 class="text-lg font-semibold text-primary">PQC Readiness</h4>
-          <p class="text-gray-400 mt-2">Preparing systems for quantum-safe cryptography.</p>
+          <h4 class="text-lg font-semibold text-primary">Cryptography Visibility</h4>
+          <p class="text-gray-400 mt-2">
+            Understanding where and how cryptography is used across systems.
+          </p>
         </div>
 
         <div class="p-6 border border-gray-800 rounded-xl">
           <h4 class="text-lg font-semibold text-primary">Crypto Agility</h4>
-          <p class="text-gray-400 mt-2">Enabling seamless transition to future-proof algorithms.</p>
+          <p class="text-gray-400 mt-2">
+            Designing systems that can adapt as cryptographic standards evolve.
+          </p>
         </div>
 
         <div class="p-6 border border-gray-800 rounded-xl">
-          <h4 class="text-lg font-semibold text-primary">Practical Adoption</h4>
-          <p class="text-gray-400 mt-2">Turning complex standards into usable solutions.</p>
+          <h4 class="text-lg font-semibold text-primary">Dependency Awareness</h4>
+          <p class="text-gray-400 mt-2">
+            Evaluating third-party, hardware, and supply chain dependencies.
+          </p>
         </div>
 
         <div class="p-6 border border-gray-800 rounded-xl">
-          <h4 class="text-lg font-semibold text-primary">Clarity & Intent</h4>
-          <p class="text-gray-400 mt-2">Focused, meaningful progress over speed.</p>
+          <h4 class="text-lg font-semibold text-primary">Operational Readiness</h4>
+          <p class="text-gray-400 mt-2">
+            Supporting phased rollout and hybrid cryptographic strategies.
+          </p>
         </div>
+
+        <div class="p-6 border border-gray-800 rounded-xl md:col-span-2">
+          <h4 class="text-lg font-semibold text-primary">Governance & Strategy</h4>
+          <p class="text-gray-400 mt-2">
+            Establishing policies, ownership, and long-term transition planning.
+          </p>
+        </div>
+
       </div>
     </div>
   </section>
@@ -92,10 +112,11 @@
   <section class="px-6 py-16 max-w-4xl mx-auto">
     <h3 class="text-2xl font-semibold mb-4 text-white">What We’re Building</h3>
     <ul class="space-y-3 text-gray-400">
-      <li>• Cryptographic discovery and analysis tools</li>
-      <li>• Actionable PQC readiness insights</li>
-      <li>• Low-risk migration support to PQC standards</li>
-      <li>• Step-by-step transition toward quantum-safe systems</li>
+    <li>• Discovery and mapping of cryptographic usage across applications and systems</li>
+    <li>• Risk-informed prioritization for PQC transition</li>
+    <li>• Insights to guide phased migration strategies</li>
+    <li>• Tooling to analyze implementation patterns and identify cryptographic dependencies within code and runtime environments</li>
+    <li>• Support for gradual adoption of quantum-safe standards</li>
     </ul>
   </section>
 
@@ -104,11 +125,11 @@
     <div class="max-w-4xl mx-auto">
       <h3 class="text-2xl font-semibold mb-4 text-white">About the Name</h3>
       <p class="text-gray-400 leading-relaxed">
-        <span class="text-white font-semibold">PostQ</span> represents
-        Post-Quantum—a future where systems are secure against quantum threats.
+        <span class="text-white font-semibold">PostQ</span> represents the transition to 
+        post-quantum security—where systems are designed to remain secure in the presence of quantum computing.
         <br /><br />
-        <span class="text-white font-semibold">Software Labs</span> reflects
-        continuous exploration, experimentation, and building real-world solutions.
+        <span class="text-white font-semibold">Software Labs</span> reflects continuous exploration, 
+        experimentation, and building practical solutions for real-world challenges.
       </p>
     </div>
   </section>
